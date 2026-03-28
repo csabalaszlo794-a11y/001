@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limpa Feirão 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap');
+
+    :root {
+        --primary: #ff2d8f;
+        --secondary: #ff6bb5;
+        --bg: #ffffff;
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(180deg, #fff 0%, #ffeaf3 100%);
+        margin: 0;
+        color: #222;
+    }
+
+    .hero {
+        background: radial-gradient(circle at top, rgba(255,45,143,0.2), transparent 60%);
+    }
+
+    .card {
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0 20px 50px rgba(255,45,143,0.15);
+        border: 1px solid rgba(255,45,143,0.15);
+    }
+
+    .btn {
+        background: linear-gradient(135deg, var(--primary), var(--secondary));
+        color: white;
+        font-weight: 700;
+        border-radius: 12px;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        transform: scale(1.05);
+        filter: brightness(1.1);
+    }
+
+    .highlight {
+        color: var(--primary);
+    }
+    </style>
+</head>
+
+<body>
+
+    <!-- HERO -->
+    <section class="hero min-h-screen flex items-center justify-center p-6">
+        <div class="max-w-5xl w-full grid md:grid-cols-2 gap-10 items-center">
+
+            <!-- TEXTO -->
+            <div>
+                <span class="text-sm text-pink-500 font-semibold uppercase">Feirão 2026 Ativo</span>
+
+                <h1 class="text-4xl md:text-6xl font-black leading-tight mt-4">
+                    LIMPE SEU NOME <br>
+                    COM ATÉ <span class="highlight">98% OFF</span>
+                </h1>
+
+                <p class="text-gray-600 mt-6 text-lg">
+                    Descubra agora as melhores condições para quitar suas dívidas de forma rápida, segura e online.
+                </p>
+
+                <a href="https://diasdefeirao2026.org/" class="btn inline-block mt-8 px-8 py-4 text-lg">
+                    CONSULTAR AGORA
+                </a>
+            </div>
+
+            <!-- CARD LATERAL -->
+            <div class="card p-8 text-center">
+                <h2 class="text-2xl font-bold mb-6">Resumo</h2>
+
+                <div class="space-y-4">
+                    <div>
+                        <p class="text-sm text-gray-500">Desconto</p>
+                        <p class="text-2xl font-bold text-pink-500">Até 98%</p>
+                    </div>
+
+                    <div>
+                        <p class="text-sm text-gray-500">Consulta</p>
+                        <p class="text-xl font-semibold">100% Online</p>
+                    </div>
+
+                    <div>
+                        <p class="text-sm text-gray-500">Acesso</p>
+                        <p class="text-xl font-semibold">Imediato</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center p-6 text-gray-500 text-sm">
+        © 2026 Limpa Feirão - Todos os direitos reservados
+    </footer>
+
+</body>
+</html>
